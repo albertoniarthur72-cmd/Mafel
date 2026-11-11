@@ -1,6 +1,6 @@
-
 :root{
   --rosa:#E76BA6; --rosa-escuro:#C94D88; --rosa-claro:#FCEAF2; --ameixa:#49313D;
+  --fonte-destaque:"Playfair Display",Georgia,serif;
   --bs-body-color:var(--ameixa); --bs-body-bg:#fff;
   --bs-body-font-family:"Poppins",sans-serif;
   --bs-link-color-rgb:201,77,136; --bs-link-hover-color-rgb:73,49,61;
@@ -22,3 +22,37 @@ html{scroll-behavior:smooth}
 .form-control,.form-select{background:#FFFCFD;border-color:#E8DCE2}
 .form-control:focus,.form-select:focus{border-color:var(--rosa);box-shadow:0 0 0 .2rem rgba(231,107,166,.15)}
 :focus-visible{outline:3px solid #D5A45B;outline-offset:3px}
+
+
+
+/* Nome da marca no menu */
+header nav > a{
+  font-family:var(--fonte-destaque);
+  font-weight:700;
+  letter-spacing:.01em;
+}
+
+
+h1,h2,
+.display-4,.display-5,.display-6{
+  font-family:var(--fonte-destaque);
+  font-weight:700;
+  line-height:1.2;
+}
+
+
+.rounded-5 > p.h2{
+  font-family:var(--fonte-destaque);
+  font-style:italic;
+  font-weight:600;
+}
+
+
+.card-doce .border-top > span.fw-bold{
+  font-family:var(--fonte-destaque);
+  font-size:1.1rem;
+  font-weight:700;
+}
+
+
+.btn,.card-doce a.fw-bold{font-weight:600}
