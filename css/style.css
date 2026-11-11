@@ -1,0 +1,24 @@
+
+:root{
+  --rosa:#E76BA6; --rosa-escuro:#C94D88; --rosa-claro:#FCEAF2; --ameixa:#49313D;
+  --bs-body-color:var(--ameixa); --bs-body-bg:#fff;
+  --bs-body-font-family:"Poppins",sans-serif;
+  --bs-link-color-rgb:201,77,136; --bs-link-hover-color-rgb:73,49,61;
+  --bs-heading-color:var(--ameixa);
+}
+html{scroll-behavior:smooth}
+.anchor{scroll-margin-top:1rem}
+.bg-rosa{background:var(--rosa-claro)}
+.text-rosa{color:var(--rosa-escuro)!important}
+.eyebrow{color:var(--rosa-escuro);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.btn-rosa{--bs-btn-color:#fff;--bs-btn-bg:var(--rosa);--bs-btn-border-color:var(--rosa);
+  --bs-btn-hover-color:#fff;--bs-btn-hover-bg:var(--rosa-escuro);--bs-btn-hover-border-color:var(--rosa-escuro);
+  --bs-btn-active-bg:var(--rosa-escuro);--bs-btn-active-border-color:var(--rosa-escuro);--bs-btn-active-color:#fff}
+.nav-pills{--bs-nav-pills-link-active-bg:var(--rosa);--bs-nav-link-color:var(--rosa-escuro);--bs-nav-link-hover-color:var(--ameixa)}
+.nav-pills .nav-link{font-weight:600;font-size:.85rem}
+.card-doce{border:1px solid #F0DDE6;border-radius:1.5rem}
+.card-img-top{aspect-ratio:4/3;object-fit:cover}
+.foto{aspect-ratio:4/3;object-fit:cover;border-radius:1.5rem 1.5rem 1.5rem 6rem}
+.form-control,.form-select{background:#FFFCFD;border-color:#E8DCE2}
+.form-control:focus,.form-select:focus{border-color:var(--rosa);box-shadow:0 0 0 .2rem rgba(231,107,166,.15)}
+:focus-visible{outline:3px solid #D5A45B;outline-offset:3px}

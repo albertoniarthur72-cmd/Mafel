@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato | Doces da Mafel ♡</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-rosa border-bottom">
+        <nav class="container d-flex flex-wrap align-items-center justify-content-between gap-2 py-3"
+            aria-label="Principal">
+            <a class="fs-5 fw-bold text-decoration-none text-body" href="index.html">Doces da Mafel <i
+                    class="bi bi-heart-fill text-rosa small"></i></a>
+            <ul class="nav nav-pills flex-wrap">
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre nós</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contato.html" aria-current=page>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-rosa py-5">
+            <div class="container text-center">
+                <p class="eyebrow mb-2">Vamos conversar?</p>
+                <h1 class="display-5 fw-bold">Seu próximo doce favorito começa aqui.</h1>
+                <p class="lead text-secondary mb-0">Dúvida, presente ou pedido especial? Deixe sua mensagem.</p>
+            </div>
+        </section>
+        <section class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <aside class="bg-rosa rounded-5 p-4 h-100">
+                        <h2 class="h4 fw-bold mb-3">Fale com a Mafel <i class="bi bi-heart-fill text-rosa"></i></h2>
+                        <p class="mb-2"><i class="bi bi-envelope text-rosa me-2"></i><span
+                                class="visually-hidden">E-mail: </span>contato@docesdamafel.example</p>
+                        <p class="mb-2"><i class="bi bi-telephone text-rosa me-2"></i><span
+                                class="visually-hidden">Telefone: </span>(11) 9342-2874</p>
+                        <p class="mb-2"><i class="bi bi-instagram text-rosa me-2"></i><span
+                                class="visually-hidden">Instagram: </span>@docesdamafel.exemplo</p>
+                        <p class="mb-2"><i class="bi bi-clock text-rosa me-2"></i><span class="visually-hidden">Horário:
+                            </span>Seg a sex, 9h às 18h</p>
+                        
+                    </aside>
+                </div>
+                <div class="col-lg-7">
+                    <form class="card card-doce p-4" action="contato.html" method="get">
+                        <h2 class="h4 fw-bold mb-3">Envie uma mensagem</h2>
+                        <div class="row g-3">
+                            <div class="col-md-6"><label class="form-label small fw-bold" for="nome">Nome</label><input
+                                    class="form-control" id="nome" placeholder="Como podemos te chamar?" required></div>
+                            <div class="col-md-6"><label class="form-label small fw-bold"
+                                    for="email">E-mail</label><input class="form-control" id="email" type="email"
+                                    placeholder="voce@email.com" required></div>
+                            <div class="col-12"><label class="form-label small fw-bold"
+                                    for="assunto">Assunto</label><select class="form-select" id="assunto" required>
+                                    <option value="" selected disabled>Escolha um assunto</option>
+                                    <option>Tenho uma dúvida</option>
+                                    <option>Quero fazer um pedido</option>
+                                    <option>Estou pensando em um presente</option>
+                                </select></div>
+                            <div class="col-12"><label class="form-label small fw-bold"
+                                    for="msg">Mensagem</label><textarea class="form-control" id="msg" rows="4"
+                                    required></textarea></div>
+                            <div class="col-12"><button class="btn btn-rosa rounded-pill px-4">Enviar mensagem
+                                    ♡</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="border-top mt-5 py-4 text-center small text-secondary">© 2026 Doces da Mafel 
+· contato@docesdamafel.example</footer>
+</body>
+
+</html>
